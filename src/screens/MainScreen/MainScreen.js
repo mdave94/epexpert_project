@@ -2,6 +2,9 @@ import React from 'react';
 import './MainScreen.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import CarouselItem from '../../components/CarouselItem/CarouselItem';
+
+
 
 const MainScreen = () => {
   const responsive = {
@@ -38,9 +41,7 @@ const MainScreen = () => {
         dotListClass='custom-dot-list-style'
         itemClass='carousel-item-padding-40-px'
       >
-        <div style={{ height: 200, width: '100%', background: 'yellow' }}>
-          Item 1
-        </div>
+        <CarouselItem/>
         <div style={{ height: 200, width: '100%', background: 'brown' }}>
           Item 2
         </div>
