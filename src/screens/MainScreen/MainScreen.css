@@ -1,0 +1,11 @@
+.mainscreen-container {
+  height: 100vh;
+  background-color: red;
+}
+
+.mainscreen-picture-container {
+  background-image: url('../../images/mainpage_photo.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+}
