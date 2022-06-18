@@ -1,16 +1,16 @@
 import React from 'react';
 import "./NavBar.css"
-
+import logo  from '../../images/logo.png'
 
 const NavBar = () => {
   return(
   <div className='navbar' >
     <div className='navbar-content-left'>
       <div className='navbar-logo'>
-        IMG
+        <img className='navbar-logo-img' src={logo} />
       </div>
       <div className='navbar-menu'>
-          <ul>
+          <ul className='navbar-menu-list'>
               <li>Logo</li>
               <li>Főoldal</li>
               <li>Rólunk</li>
@@ -22,7 +22,7 @@ const NavBar = () => {
       <div className='lang-selector'>
         HUN
       </div>
-      <div className='contact'>
+      <div className='contact-btn'>
         Kapcsolat
       </div>
     </div>
