@@ -1,75 +1,71 @@
-.navbar{
-    height: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    /* border: 1px solid red; */
-
+.navbar {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
 }
 
+.navbar-content-left {
+  display: flex;
 
-.navbar-content-left{
-    display: flex;
-    
-    /* border: 1px solid blue; */
-    
+  /* border: 1px solid blue; */
 }
 
-.navbar-logo{
-    align-items: center;
+.navbar-logo {
+  align-items: center;
 
-    /* border: 1px solid green; */
+  /* border: 1px solid green; */
 }
-.navbar-logo-img{
-    width: auto;
-    height: 50px;
-}
-
-.navbar-menu{
-    display: flex;
-    margin-left: 12px;
-    /* border: 1px solid brown; */
+.navbar-logo-img {
+  width: auto;
+  height: 50px;
 }
 
-.navbar-menu-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.navbar-menu {
+  display: flex;
+  /* border: 1px solid brown; */
 }
 
-.navbar-menu-list li{
-    margin-right: 28px;
+.navbar-menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-.navbar-menu-list li:hover{
-    cursor: pointer;
-    background-color: red;
+.navbar-menu-list li {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  padding: 0 28px;
 }
 
-
-
-.navbar-content-right{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    /* border: 1px solid cyan; */
-
+.navbar-menu-list li:hover {
+  cursor: pointer;
+  background-color: red;
 }
 
-.contact-btn{
-    background-color: black;
-    border-radius: 4px;
-    color: white;
-    padding: 8px 16px; 
-    cursor: pointer;
-    margin-left: 12px;
+.navbar-content-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  /* border: 1px solid cyan; */
 }
 
-.contact-btn:hover{
-    opacity:0.8;
+.contact-btn {
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+.contact-btn:hover {
+  opacity: 0.8;
 }
