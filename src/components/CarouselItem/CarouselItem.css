@@ -1,27 +1,28 @@
-.item-container{
-    border: 1px solid blue;
-    height: 250px;
+.item-container {
+    border: 1px solid black;
+    height: 300px;
     width: 300px;
 }
 
-.carouselitem-picture{
-
-}
+.carouselitem-picture {}
 
 
-.carouselitem-picture img{
+.carouselitem-picture img {
     width: 300px;
     height: 200px;
 }
 
 
 .carouselitem-btn {
+    width: 100px;
+    padding: 8px 0;
+    text-align: center;
     background-color: black;
     border-radius: 4px;
     color: white;
     cursor: pointer;
-  }
-  
-  .carouselitem-btn:hover {
+}
+
+.carouselitem-btn:hover {
     opacity: 0.8;
-  }
+}
